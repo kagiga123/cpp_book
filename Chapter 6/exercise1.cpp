@@ -43,7 +43,7 @@ bool isNumPalindrome(int num) {
                 return false;
             else {
                 num = num % tenTopwr;
-                num = num / 10;
+                num = num / 10;  
                 pwr = pwr - 2;
             }
         }
